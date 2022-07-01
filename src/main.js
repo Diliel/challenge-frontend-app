@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import store from "./store";
+import store from './store';
 import router from './router'
 import { BootstrapVue, IconsPlugin, FormSelectPlugin, BootstrapVueIcons } from 'bootstrap-vue'
 import vSelect from 'vue-select'
