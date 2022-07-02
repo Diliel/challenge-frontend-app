@@ -1,26 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 2 + Vite" />
+    <NavBar />
+    <TicketSearch />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import {
+  BNavbarNav,
+  BNavbarBrand,
+  BNavItemDropdown,
+  BCollapse,
+  BDropdownItem,
+  BNavItem,
+  BNavForm,
+} from "bootstrap-vue";
+import TicketSearch from "./components/tickets/TicketSearch.vue";
+import NavBar from "./components/layouts/NavBar.vue";
+import Footer from "./components/layouts/Footer.vue";
 export default {
   components: {
-    HelloWorld,
+    BNavItemDropdown,
+    BCollapse,
+    BDropdownItem,
+    BNavItem,
+    BNavForm,
+    BNavbarNav,
+    BNavbarBrand,
+    TicketSearch,
+    NavBar,
+    Footer,
   },
 };
 </script>
-
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
