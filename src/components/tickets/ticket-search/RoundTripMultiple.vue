@@ -19,13 +19,13 @@
       :id="item.id"
       :key="item.id"
     >
-      <b-col>
+      <b-col md="3" sm="2">
         <b-form-group label="Ciudad de origen" label-for="basicInput">
           <b-form-input id="input-live" placeholder="Origen" trim></b-form-input
         ></b-form-group>
       </b-col>
 
-      <b-col>
+      <b-col md="3" sm="2">
         <b-form-group label="Ciudad de destino" label-for="basicInput">
           <b-form-input
             id="input-live"
@@ -34,7 +34,7 @@
           ></b-form-input></b-form-group
       ></b-col>
 
-      <b-col>
+      <b-col md="2" sm="2">
         <b-form-group label="Fecha de salida" label-for="basicInput">
           <b-form-datepicker
             id="datepicker-dateformat2"
@@ -45,7 +45,7 @@
             }"
             locale="es" /></b-form-group
       ></b-col>
-      <b-col>
+      <b-col md="2" sm="2">
         <b-form-group label="Fecha de retorno" label-for="basicInput">
           <b-form-datepicker
             id="datepicker-dateformat2"
